@@ -1,0 +1,166 @@
+body{
+  background-color: black;
+}
+
+.bg-verde{
+  background-color: transparent;
+}
+
+.centrado{
+  text-align: center;
+}
+.header{
+  background-color: transparent !important;
+  text-align: justify;
+}   
+.navbar {
+  /* flex-wrap: inherit; */
+  font-weight: 300;
+  background-color: transparent !important;
+  flex-direction: row;
+}
+
+/* ESTILO DE TEXTO H5*/ 
+h5 {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+/* ESTILO DE TEXTO DE LOS PARRAFOS*/   
+p {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ESTILO DE CAJA*/    
+.card-body .card-img{
+  padding: 16px;
+  text-decoration: none;
+}
+/* ESTILO DE CAJA CON TEXTO NOMBRE DE LA TIENDA*/      
+.card-body a.card-link:first-child {
+  color: #707070;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* ESTILO DE CAJA CON TEXTO NOMBRE DE LA UBICACION*/ 
+p.card-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+/* COLOR DE LA FUENTE DEL PRECIO */
+.card-body a.card-link:nth-child(2) {
+  color: #28A745;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 18px;
+  margin-left: 11px;
+  text-decoration: none;
+}
+/* COLOR DE LA CAJA DEL FORMULARIO */
+.color-fondo {
+  background-color: black;
+}
+/* ESTILO DEL FORMULARIO */
+.form-control {
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+/* ESTILO DEL BOTON ENVIAR */
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
+/* CAJA DEL FOOTER */
+.card {
+  margin-bottom: 2.5rem;
+  background-color: black;
+}
+footer {
+  color: #707070;
+    /* background-color: var(--white); */
+  background-color: #ffffff;
+}
+/* TEXTO DEL FOOTER BAJO EL LOGO*/
+.fot {
+  font-size: 16px;
+  padding-bottom: 22px;
+  color: black;
+}
+  
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 24px;
+}
+h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.box{
+  border: 5px solid black;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+.btn{
+  background-color: rgba(4, 255, 242, 0.795);
+  color: white;
+  border-color: rgba(4, 255, 242, 0.795);
+}
+.form-group{
+  text-align: left;
+}
+h3{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.card-body1{
+  color: white;
+  background-color: black;
+}
+.card-body2{
+  color: white;
+  background-color: rgba(4, 255, 242, 0.795);
+  padding: 2em;
+}
+.redes-contenedor{
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(4, 255, 242, 0.795);
+}
+.navbar-dark{
+  background-size: cover;
+  background-color: rgba(4, 255, 242, 0.795);
+}
+.color-fondo{
+  background-color: black;
+  display: flex;
+  width: auto;
+  height: 400px;
+  text-align: center;
+  text-size-adjust: 200px 200px;
+}
+:root{
+  --github: white;
+  --linkedin: white;
+  --twitter: white;
+  --facebook: white;
+}
+i{
+  color: white;
+}
